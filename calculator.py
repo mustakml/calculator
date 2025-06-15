@@ -24,7 +24,7 @@ def divide(zahl1, zahl2):
 
 def main():
     while True:
-        os.system('cls' if os.name == 'nt' else 'clear')
+    
         show_menu()
         wahl = input("Bitte wähle eine Option (1-5): ")
         if wahl == '5':
